@@ -1,0 +1,16 @@
+{
+    "presets":[
+        [
+             "env",
+             {
+                 "tartgets":{
+                     "browsers":["last 2 versions"]
+                 },
+                 "debug":true
+             }
+        ]
+    ],
+    "plugins":[
+         "transform-runtime"
+     ]
+ }
